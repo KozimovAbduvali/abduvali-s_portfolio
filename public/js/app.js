@@ -115,7 +115,7 @@ function generateCard(image, title, description, link) {
       <img class="w-full h-full object-cover transition duration-300 scale-110 group-hover:scale-125 mb-4" src="${image}" alt="">
     </div>  
     <h3 class="text-brand-green-500 text-2xl font-semibold py-2 mt-3">${title}</h3>
-    <p class="text-lg line-clamp-3">${description}</p>
+    <p class="md:text-lg line-clamp-3">${description}</p>
     <div class="flex items-center gap-2 transition duration-300 hover:opacity-75 mt-3">
       <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M10.2867 7.7133C9.60408 7.031 8.67846 6.64771 7.71334 6.64771C6.74821 6.64771 5.82259 7.031 5.14 7.7133L2.56584 10.2866C1.88324 10.9692 1.49976 11.895 1.49976 12.8604C1.49976 13.8257 1.88324 14.7515 2.56584 15.4341C3.24844 16.1167 4.17424 16.5002 5.13959 16.5002C6.10493 16.5002 7.03074 16.1167 7.71334 15.4341L9 14.1475" stroke="black" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
