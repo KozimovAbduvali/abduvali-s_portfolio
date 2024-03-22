@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+  body {
+    @apply font-poppins overflow-x-hidden
+  }
+}
+
+.menu-section.active {
+  @apply translate-x-0
+}
+
+.menu-btn.active {
+  @apply pointer-events-none opacity-0
+}
